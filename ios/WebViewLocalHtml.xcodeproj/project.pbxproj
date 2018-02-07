@@ -13,7 +13,7 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* WebViewLocalHtmlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WebViewLocalHtmlTests.m */; };
-		057DD3FA2029A0E000DA9EE6 /* widget in Resources */ = {isa = PBXBuildFile; fileRef = 057DD3F92029A0E000DA9EE6 /* widget */; };
+		0582809D202AFE8C006F4D35 /* widget in Resources */ = {isa = PBXBuildFile; fileRef = 0582809C202AFE8C006F4D35 /* widget */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -326,7 +326,7 @@
 		00E356EE1AD99517003FC87E /* WebViewLocalHtmlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewLocalHtmlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* WebViewLocalHtmlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewLocalHtmlTests.m; sourceTree = "<group>"; };
-		057DD3F92029A0E000DA9EE6 /* widget */ = {isa = PBXFileReference; lastKnownFileType = folder; name = widget; path = ../../external/widget; sourceTree = "<group>"; };
+		0582809C202AFE8C006F4D35 /* widget */ = {isa = PBXFileReference; lastKnownFileType = folder; path = widget; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* WebViewLocalHtml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewLocalHtml.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -462,7 +462,7 @@
 		057DD3C32029A0CC00DA9EE6 /* external */ = {
 			isa = PBXGroup;
 			children = (
-				057DD3F92029A0E000DA9EE6 /* widget */,
+				0582809C202AFE8C006F4D35 /* widget */,
 			);
 			path = external;
 			sourceTree = "<group>";
@@ -1059,7 +1059,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				057DD3FA2029A0E000DA9EE6 /* widget in Resources */,
+				0582809D202AFE8C006F4D35 /* widget in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
