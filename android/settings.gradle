@@ -1,0 +1,3 @@
+rootProject.name = 'WebViewLocalHtml'
+
+include ':app'
