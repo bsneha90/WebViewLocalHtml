@@ -10,7 +10,7 @@ const isAndroid= Platform.OS==='android'
 export default class App extends Component {
   render() {
     return (
-      <WebView source={{uri:isAndroid?'file:///android_asset/widget/index.html':'./external/widget/index.html'}}/>
+      <WebView source={{uri:isAndroid?'file:///android_asset/widget/index.html':'./widget/index.html'}}/>
     );
   }
 }
